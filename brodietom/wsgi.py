@@ -1,5 +1,5 @@
 """
-WSGI config for mytom project.
+WSGI config for brodietom project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mytom.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'brodietom.settings')
 
 application = get_wsgi_application()
